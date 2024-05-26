@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Student Grade Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Student Grade Calculator</h1>
+
+    <form id="student-form">
+      <input
+        type="text"
+        id="student-name"
+        placeholder="Student Name"
+        required
+      />
+
+      <input type="text" id="subject1" placeholder="Subject 1" required />
+
+      <input type="text" id="subject2" placeholder="Subject 2" required />
+
+      <input type="text" id="subject3" placeholder="Subject 3" required />
+
+      <input type="text" id="subject4" placeholder="Subject 4" required />
+
+      <input type="text" id="subject5" placeholder="Subject 5" required />
+
+      <input
+        type="number"
+        id="student_percentage"
+        placeholder="student percentage"
+        required
+      />
+      <button id="add_but">Add</button>
+      <button id="del_all_but">Del All</button>
+    </form>
+
+    <table id="todo_list">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Subject 1</th>
+          <th>Subject 2</th>
+          <th>Subject 3</th>
+          <th>Subject 4</th>
+          <th>Subject 5</th>
+          <th>Percentage</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="results">
+      <button type="submit">Calculate Average</button>
+      <p id="average">Average: 0%</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

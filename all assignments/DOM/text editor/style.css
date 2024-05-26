@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: crimson;
+  height: 100px;
+}
+
+.container span {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.main-content{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.main-content h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
