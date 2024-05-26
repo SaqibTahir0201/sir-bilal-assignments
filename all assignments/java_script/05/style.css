@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*# --------------------- */
+
+#hello
+
+body , html {
+  font-size: 10px;
+}
+
+
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: crimson;
+  padding: 2vw;
+}
+
+.container {
+  height: 50vh;
+  width: 20vw;
+  background-color: violet;
+  list-style: none;
+  padding-left: 3vw;
+}
+
+.container2 {
+  height: 50vh;
+  width: 20vw;
+  background-color: blue;
+  list-style: none;
+  padding-left: 2vw;
+}
+
+.container {
+  padding: 0;
+  margin: auto;
+  margin-left: 35px;
+
+}
+
+@media screen {
+  
+}
