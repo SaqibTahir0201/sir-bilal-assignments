@@ -3,12 +3,12 @@ async function getData() {
   let api = await fetch(
     "https://newsapi.org/v2/everything?q=apple&from=2024-07-11&to=2024-07-11&sortBy=popularity&apiKey=020bea5e93db4d1a85f33a556b0659d2"
   );
-  console.log(api);
+  console.log("api",api);
 
   let data = await api.json();
-  console.log(data);
+  console.log("data",data);
   
-  console.log(data.articles[0]);
+  console.log("data => articles",data.articles[0]);
 
   return data;
 
