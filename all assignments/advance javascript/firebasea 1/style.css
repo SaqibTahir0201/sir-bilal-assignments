@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.signing-account,
+.create-account {
+  border: 2px solid black;
+  padding: 5vw;
+}
+.signing-account h2,
+.create-account h2 {
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  border-bottom: 2px dotted black;
+  /* background-color: red; */
+}
+
+
+.user-box,
+.signing-box {
+  border: 2px solid black;
+  display: inline-block;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+#signup_btn,
+#signing_btn {
+  padding: 5px;
+  background-color: #dadada;
+}
+
+button{
+    padding: 5px 7px;
+    background-color: #dadada;
+}

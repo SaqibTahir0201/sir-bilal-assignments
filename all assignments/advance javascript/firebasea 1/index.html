@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <!-- <link rel="stylesheet" href="signing.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="auth_container">
+      <!-- Create Account -->
+      <div class="create-account">
+        <h2>Create Account</h2>
+        <form action="">
+          <!-- <div class="box"> -->
+            <div class="user-box">
+              <label for="">Email =></label>
+              <input id="signup_email" type="email" required />
+            </div>
+
+            <div class="user-box">
+              <label for="">password =></label>
+              <input id="signup_password" type="password" required />
+            </div>
+          <!-- </div> -->
+          <!-- <button></button> -->
+          <a id="signup_btn" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>Create Account
+          </a>
+        </form>
+      </div>
+      <!-- Signing Account -->
+      <div class="signing-account">
+        <h2>Signing Account</h2>
+        <form action="">
+          <div class="signing-box">
+            <label id="label" for="">Email => </label>
+            <input id="signing_email" type="email" required />
+          </div>
+
+          <div class="signing-box">
+            <label for="">password => </label>
+            <input id="signing_password" type="password" required />
+          </div>
+          <!-- <button></button> -->
+          <a id="signing_btn" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>Signing
+          </a>
+        </form>
+      </div>
+    </div>
+    <div id="user_container">
+        <h1 style="font-size: 30px;" id="user_email"></h1>
+        <button id="logout_btn">Logout</button>
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
